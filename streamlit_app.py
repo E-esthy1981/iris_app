@@ -18,7 +18,7 @@ def main():
     st.write(f"Valeur sélectionnée : {value}")
 
     # Affichage d'une image
-    st.image("https://picsum.photos/200/300", caption="Image aléatoire")
+   # st.image("https://picsum.photos/200/300", caption="Image aléatoire")
 
 if __name__ == "__main__":
     main()
