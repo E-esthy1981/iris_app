@@ -25,6 +25,13 @@ def main():
     value = st.slider("Sélectionnez la largeur des Sépals", 0, 100, 50)
     #st.write(f"Valeur sélectionnée  : {value}")
 
+    if st.button("Soumettre", key="submit_button_1"):
+        st.write("Bouton 1 cliqué !")
+
+    if st.button("Soumettre", key="submit_button_2"):
+        st.write("Bouton 2 cliqué !")
+
+
  # Bouton
     if st.button("Soumettre"):
         st.write(f"La variété de la fleur, {user_input}!")
