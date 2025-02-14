@@ -9,10 +9,6 @@ def main():
     if st.button("Soumettre"):
         st.write(f"Bonjour, {user_input}!")
 
-    # Sélection dans une liste déroulante
-  #  option = st.selectbox("Choisissez une option :", ["Option 1", "Option 2", "Option 3"])
-  #  st.write(f"Vous avez choisi : {option}")
-
     # Slider
     value = st.slider("Sélectionnez la longueur des Pétals", 0, 100, 50)
     st.write(f"Valeur sélectionnée : {value}")
@@ -27,8 +23,11 @@ def main():
 
  # Slider
     value = st.slider("Sélectionnez la largeur des Sépals", 0, 100, 50)
-    #st.write(f"Valeur sélectionnée : {value}")
+    #st.write(f"Valeur sélectionnée  : {value}")
 
+ # Bouton
+    if st.button("Soumettre"):
+        st.write(f"La variété de la fleur, {user_input}!")
 
 if __name__ == "__main__":
     main()
