@@ -25,9 +25,9 @@ def main():
     value = st.slider("Sélectionnez la largeur des Sépals", 0, 100, 50)
     st.write(f"Valeur sélectionnée  : {value}")
 
-   
-if __name__ == "__main__":
+   if __name__ == "__main__":
     main()
+       
 st.write("bonjour le monde")
 
 st.title("retour au village")
