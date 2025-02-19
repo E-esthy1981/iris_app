@@ -1,4 +1,4 @@
-import streamlit as st
+import streamlit
 def main():
     st.title("Interface Web avec Streamlit")
 
