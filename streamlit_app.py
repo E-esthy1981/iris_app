@@ -16,7 +16,10 @@ def main():
     # Sélection dans une liste déroulante
     option = st.selectbox("Choisissez une option :", ["Accueil", "Descriptions", "Blog", "Actualités"])
     st.write(f"Vous avez choisi : {option}")
-
+    
+#Affichage du contenu selon le choix
+    if menu=="Accueil":
+        st.subheader("Bienvenu dans le module d'analyse de données
     # Slider
     value = st.slider("Sélectionnez une valeur", 0, 100, 50)
     st.write(f"entrée la longueur des Sépals : {value}")
