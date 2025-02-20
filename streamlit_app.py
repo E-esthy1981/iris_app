@@ -3,7 +3,7 @@ def main():
     st.title("Interface Web avec Streamlit")
     st.sidebar.header("Analyse des données")
     st.sidebar.text("selectionner un des menus suivants pour avancer ")
-
+    st.title("TP IA CREATION D'UN SITE WEB")
 
     # Champ de texte
     user_input = st.text_input("Entrez votre nom :")
