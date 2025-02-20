@@ -4,7 +4,8 @@ def main():
     st.sidebar.header("Analyse des données")
     st.sidebar.text("selectionner un des menus suivants pour avancer ")
     st.title("TP IA CREATION D'UN SITE WEB")
-
+    st.header("Partie 1")
+   
     # Champ de texte
     user_input = st.text_input("Entrez votre nom :")
 
@@ -13,8 +14,8 @@ def main():
         st.write(f"Bonjour, {user_input}!")
 
     # Sélection dans une liste déroulante
-    #option = st.selectbox("Choisissez une option :", ["Option 1", "Option 2", "Option 3"])
-    #st.write(f"Vous avez choisi : {option}")
+    option = st.selectbox("Choisissez une option :", ["Accueil", "Descriptions", "Blog", "Actualités"])
+    st.write(f"Vous avez choisi : {option}")
 
     # Slider
     value = st.slider("Sélectionnez une valeur", 0, 100, 50)
