@@ -1,6 +1,9 @@
 import streamlit as st
 def main():
     st.title("Interface Web avec Streamlit")
+    st.sidebar.header("Analyse des données")
+    st.sidebar.text("selectionnerun des menus suivants pour continuer")
+
 
     # Champ de texte
     user_input = st.text_input("Entrez votre nom :")
