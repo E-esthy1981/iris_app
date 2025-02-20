@@ -13,8 +13,8 @@ def main():
         st.write(f"Bonjour, {user_input}!")
 
     # Sélection dans une liste déroulante
-    option = st.selectbox("Choisissez une option :", ["Option 1", "Option 2", "Option 3"])
-    st.write(f"Vous avez choisi : {option}")
+    #option = st.selectbox("Choisissez une option :", ["Option 1", "Option 2", "Option 3"])
+    #st.write(f"Vous avez choisi : {option}")
 
     # Slider
     value = st.slider("Sélectionnez une valeur", 0, 100, 50)
@@ -27,7 +27,7 @@ def main():
     st.write(f"entrée la longeur des Pétals : {value}")
       # Slider
     value = st.slider("Sélectionnez une valeur", 0, 100, 50)
-    st.write(f"entréela lageur des Pétals : {value}")
+    st.write(f"entrée la lageur des Pétals : {value}")
 
 if __name__ == "__main__":
     main()
