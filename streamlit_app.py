@@ -18,7 +18,16 @@ def main():
 
     # Slider
     value = st.slider("Sélectionnez une valeur", 0, 100, 50)
-    st.write(f"Valeur sélectionnée : {value}")
+    st.write(f"entrée la longueur des Sépals : {value}")
+      # Slider
+    value = st.slider("Sélectionnez une valeur", 0, 100, 50)
+    st.write(f"entrée la largeur des Sépals : {value}")
+      # Slider
+    value = st.slider("Sélectionnez une valeur", 0, 100, 50)
+    st.write(f"entrée la longeur des Pétals : {value}")
+      # Slider
+    value = st.slider("Sélectionnez une valeur", 0, 100, 50)
+    st.write(f"entréela lageur des Pétals : {value}")
 
 if __name__ == "__main__":
     main()
