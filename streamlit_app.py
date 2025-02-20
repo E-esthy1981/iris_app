@@ -2,7 +2,7 @@ import streamlit as st
 def main():
     st.title("Interface Web avec Streamlit")
     st.sidebar.header("Analyse des données")
-    st.sidebar.text("selectionner un des menus suivants pour ")
+    st.sidebar.text("selectionner un des menus suivants pour avancer ")
 
 
     # Champ de texte
@@ -19,15 +19,7 @@ def main():
     # Slider
     value = st.slider("Sélectionnez une valeur", 0, 100, 50)
     st.write(f"entrée la longueur des Sépals : {value}")
-      # Slider
-    value = st.slider("Sélectionnez une valeur", 0, 100, 50)
-    st.write(f"entrée la largeur des Sépals : {value}")
-      # Slider
-    value = st.slider("Sélectionnez une valeur", 0, 100, 50)
-    st.write(f"entrée la longeur des Pétals : {value}")
-      # Slider
-    value = st.slider("Sélectionnez une valeur", 0, 100, 50)
-    st.write(f"entrée la lageur des Pétals : {value}")
+    
 
 if __name__ == "__main__":
     main()
