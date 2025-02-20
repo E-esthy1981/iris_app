@@ -2,7 +2,7 @@ import streamlit as st
 def main():
     st.title("Interface Web avec Streamlit")
     st.sidebar.header("Analyse des données")
-    st.sidebar.text("selectionnerun des menus suivants pour continuer")
+    st.sidebar.text("selectionner un des menus suivants pour ")
 
 
     # Champ de texte
